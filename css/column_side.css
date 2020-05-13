@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  background: cyan;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.left_side {
+  padding: 20px;
+  border-right: 1px solid black;
+  flex: 1;
+  background: #d4f8e8;
+}
+
+.middle_side {
+  padding: 20px;
+  border-right: 1px solid black;
+  flex: 3;
+  background: #ffffff;
+}
+
+.right_side {
+  padding: 20px;
+  flex: 1;
+  background: #d4f8e8;
+}
+
+.right_side h2 {
+  text-align: center;
+  color: #481380;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.left_side h2 {
+  text-align: left;
+  color: #481380;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.left_side h3 {
+  text-align: left;
+  color: #424874;
+  padding-bottom: 5px;
+}
+
+.left_side a {
+  text-decoration: none;
+}
+
+.left_side h3:hover {
+  background-color: #bae5e5;
+}
+@media screen and (min-width: 780px) {
+  .section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* Clear floats after the columns */

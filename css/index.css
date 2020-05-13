@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+header {
+  background: #566c2b;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.social-links li {
+  padding: 10px;
+  align-items: center;
+}
+
+.centre h2 {
+  text-align: center;
+  color: pink;
+  font-size: 50px;
+  padding: 5px 150px;
+}
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}
+/*----css for basic.html ------*/
+.chapter {
+  border-bottom: 1px solid #2f1a20;
+}
+
+.chapter {
+  margin: 0 0 10px;
+  text-align: justify;
+}
+
+.chapter ul {
+  list-style: none;
+  margin: 1em 0;
+  padding-left: 24px;
+}
+
+.chapter ul li {
+  padding: 0 0 0 17px;
+  text-align: left;
+  list-style: circle;
+}
+
+code.def {
+  margin-left: 5px;
+}
+
+code,
+pre {
+  font-family: monospace;
+}
+
+code {
+  color: #993;
+}
+
+code {
+  line-height: 1.2em;
+  text-align: left;
+}
+
+.chapter dd {
+  padding-bottom: 5px;
+}
+
+dd {
+  display: block;
+  margin-inline-start: 40px;
+}
+
+.bld {
+  font-weight: 700;
+}
